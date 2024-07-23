@@ -1,1 +1,29 @@
 /* Start coding here */
+header {
+    text-align: center;
+}
+
+.item1, .item2, .item3, .item4 {
+    background-color: teal;
+    padding: 50px;
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+}

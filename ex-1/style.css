@@ -3,9 +3,12 @@ header {
     text-align: center;
 }
 
-.item1, .item2, .item3, .item4 {
+.item1, .item2, .item3, .item4,
+.item5, .item6, .item7, .item8 {
     background-color: teal;
-    padding: 50px;
+    width: 25vw;
+    height: 50vh;
+    text-align: center;
 }
 
 @media only screen and (min-width: 992px) {
@@ -15,6 +18,7 @@ header {
         justify-content: space-around;
         align-items: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 }
 
@@ -25,5 +29,6 @@ header {
         justify-content: flex-start;
         align-items: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 }
